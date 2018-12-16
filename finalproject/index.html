@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+
+		<!-- A-Frame libraries -->
+		<script language="javascript" type="text/javascript" src="../libraries/aframe.min.js"></script>
+
+		<!-- AFrameP5 library -->
+		<script language="javascript" type="text/javascript" src="../libraries/aframep5.js"></script>
+
+		<script src="../p5/p5.min.js"></script>
+    <script src="../p5/addons/p5.dom.min.js"></script>
+    <script src="../p5/addons/p5.sound.min.js"></script>
+		<!-- <script src="p5gif/p5.gif.min.js"></script>
+		<script src="p5gif/p5.gif.js"></script> -->
+    <script src="sketch4.js"></script>
+		<!-- <script src="../p5/p5.js"> </script> -->
+		<!-- <script src="jquery-3.2.1.js"></script> -->
+    <style> body {padding: 0; margin: 0;} </style>
+
+</head>
+
+ <div id="vr">
+		<a-scene id="VRScene">
+
+			<!-- <a-sky src="#sky"></a-sky> -->
+
+
+	  <a-assets id="VRAssets">
+
+				<!-- <img id="sky" src="images/sky.jpg"> -->
+				<img src="images/gold_block.png" id="gold">
+				<a-asset id="chair_obj" src="images/chair/chair.obj"></a-asset>
+				<a-asset id="chair_mtl" src="images/chair/chair.mtl"></a-asset>
+
+				<a-asset id="desk_obj" src="images/desk.obj"></a-asset>
+				<a-asset id="desk_mtl" src="images/desk.mtl"></a-asset>
+
+				<a-asset id="laptop_obj" src="images/laptop.obj"></a-asset>
+				<a-asset id="laptop_mtl" src="images/laptop.mtl"></a-asset>
+
+				<a-asset id="bed_obj" src="images/bed.obj"></a-asset>
+				<a-asset id="bed_mtl" src="images/bed2.mtl"></a-asset>
+
+				<a-asset id="table_obj" src="images/shorttable.obj"></a-asset>
+				<a-asset id="table_mtl" src="images/shorttable.mtl"></a-asset>
+
+				<a-asset id="cupboard_obj" src="images/cupboard.obj"></a-asset>
+				<a-asset id="cupboard_mtl" src="images/cupboard.mtl"></a-asset>
+
+				<a-asset id="couch_obj" src="images/couch.obj"></a-asset>
+				<a-asset id="couch_mtl" src="images/couch.mtl"></a-asset>
+
+
+
+	 </a-assets>
+	 <!-- <a-sky src="#sky"></a-sky> -->
+	  </a-scene>
+	</div>
+
+<!--
+	<div id = "2d"> -->
+
+<!--- P5 Sketch -->
+<!--
+
+	</div> -->
+
+		<!-- custom styles -->
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+
+			 #vr {
+width: 10%;
+height:10%;
+/* margin-top: 2%;
+margin-left: 1%; */
+
+			 /* z-index: -1; */
+			}
+
+			/* #2d {
+				z-index: 1;
+
+			} */
+		</style>
+	</head>
+	<body>
+
+	</body>
+</html>
